@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main
+      class="flex bg-gray-100 flex-col lg:flex-row lg:justify-between w-[100vw] overflow-hidden h-[100vh]"
+    >
+      <nav class="w-full h-20 p-5 bg-black lg:hidden"></nav>
+      <section
+        class="lg:w-[30%] xl:w-[18%] 2xl:w-[16%] h-full hidden lg:flex lg:flex-col bg-purple-900 text-white"
+      >
+      <div class="flex justify-center flex-col items-center w-full !h-fit my-4">
+          <img src="../assets/img/mrNouri.jpg" class="w-20 border-r border-l border-purple-300 p-1 h-20 rounded-2xl" alt="">
+          <h2 class="my-2">امیرسجاد نوری</h2>
+      </div>
+      <div class="my-5 p-5">
+        <ul class="p-2 space-y-8 hover:[&_>li]:bg-purple-700 hover:[&_>li]:shadow-none" >
+            <li  class="shadow-sm  rounded-md border border-purple-600 bg-purple-800 shadow-purple-600"><a class="block p-3" href="index.html">
+                اضافه کردن یادداشت جدید
+            </a></li>
+            <li  class="shadow-sm  rounded-md border border-purple-600 bg-purple-800 shadow-purple-600"><a class="block p-3" href="#">
+                یادداشت های من
+            </a></li>
+
+        </ul>
+      </div>
+    
+    </section>
+      <section class="p-5 bg-gray-100 lg:w-[70%] xl:w-[82%] 2xl:w-[84%]">
+        <div class="my-5 p-5">
+            <h2 class="py-3 px-5 border-r-2 rounded-full border-purple-500">
+                یاد داشت های من
+            </h2>
+        </div>
+        <div class="w-full h-full p-5">
+            <div class="flex flex-col">
+                <div class="-m-1.5 overflow-x-auto">
+                  <div class="p-1.5 min-w-full inline-block align-middle">
+                    <div class="border border-gray-200 rounded-lg overflow-hidden ">
+                      <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50 ">
+                          <tr>
+                            <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase">نام</th>
+                            <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase">نام خانوادگی</th>
+                            <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase">عنوان</th>
+                            <th scope="col" class="px-6 py--3 text-center text-xs font-medium text-gray-500 uppercase">عملیات</th>
+                          </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 ">
+                          <tr>
+                            <td class=" text-center px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800"> امیرسجاد</td>
+                            <td class=" text-center px-6 py-4 whitespace-nowrap text-sm text-gray-800">نوری</td>
+                            <td class=" text-center px-6 py-4 whitespace-nowrap text-sm text-gray-800 ">امشب باشگاه پا داریم !</td>
+                            <td class=" text-center px-6 py-4 whitespace-nowrap  text-sm font-medium">
+                              <button type="button" class="inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-hidden focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:text-blue-400">Delete</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
