@@ -1,0 +1,55 @@
+{
+    "name" : "note app by pwa",
+    "short_name" : "Note",
+    "description" : "good app to remind you evrithing",
+    "background_color" : "white",
+    "theme_color" : "purple",
+    "start_url" : "http://127.0.0.1:5500/src/pages/index.html?utm_source=homescreen",
+    "scope" : ".",
+    "orientation" : "portrait-primary",
+    "display" : "standalone",
+    "dir" : "rtl",
+    "lang" : "fa-IR",
+    "icons": [
+        {
+          "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "72x72",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "384x384",
+          "type": "image/png"
+        },
+        {
+            "src": "/src/assets/img/GSoC-icon-192.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+}
