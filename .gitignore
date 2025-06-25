@@ -1,0 +1,21 @@
+# فایل‌ها و پوشه‌های مربوط به Node.js
+node_modules/
+.env
+.DS_Store
+
+# لاگ‌ها
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# فایل‌های تولید شده
+dist/
+build/
+*.tmp
+*.temp
+
+# فایل‌های IDE
+.idea/
+.vscode/
+*.swp
+*.swo
