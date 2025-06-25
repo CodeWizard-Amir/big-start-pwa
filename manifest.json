@@ -4,7 +4,7 @@
     "description" : "good app to remind you evrithing",
     "background_color" : "white",
     "theme_color" : "purple",
-    "start_url" : "http://127.0.0.1:5501/index.html?utm_source=homescreen",
+    "start_url" : "https://codewizard-amir.github.io/big-start-pwa/?utm_source=homescreen",
     "scope" : ".",
     "orientation" : "portrait-primary",
     "display" : "standalone",
